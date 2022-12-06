@@ -12,3 +12,17 @@ C:\Users\CuBE\source\repos\RobotWar\RobotWar\obj\Debug\netcoreapp3.1\RobotWar.cs
 C:\Users\CuBE\source\repos\RobotWar\RobotWar\obj\Debug\netcoreapp3.1\RobotWar.dll
 C:\Users\CuBE\source\repos\RobotWar\RobotWar\obj\Debug\netcoreapp3.1\RobotWar.pdb
 C:\Users\CuBE\source\repos\RobotWar\RobotWar\obj\Debug\netcoreapp3.1\RobotWar.genruntimeconfig.cache
+E:\Git\RobotWar\RobotWar\RobotWar\RobotWar\bin\Debug\netcoreapp3.1\RobotWar.exe
+E:\Git\RobotWar\RobotWar\RobotWar\RobotWar\bin\Debug\netcoreapp3.1\RobotWar.deps.json
+E:\Git\RobotWar\RobotWar\RobotWar\RobotWar\bin\Debug\netcoreapp3.1\RobotWar.runtimeconfig.json
+E:\Git\RobotWar\RobotWar\RobotWar\RobotWar\bin\Debug\netcoreapp3.1\RobotWar.runtimeconfig.dev.json
+E:\Git\RobotWar\RobotWar\RobotWar\RobotWar\bin\Debug\netcoreapp3.1\RobotWar.dll
+E:\Git\RobotWar\RobotWar\RobotWar\RobotWar\bin\Debug\netcoreapp3.1\RobotWar.pdb
+E:\Git\RobotWar\RobotWar\RobotWar\RobotWar\obj\Debug\netcoreapp3.1\RobotWar.csproj.AssemblyReference.cache
+E:\Git\RobotWar\RobotWar\RobotWar\RobotWar\obj\Debug\netcoreapp3.1\RobotWar.GeneratedMSBuildEditorConfig.editorconfig
+E:\Git\RobotWar\RobotWar\RobotWar\RobotWar\obj\Debug\netcoreapp3.1\RobotWar.AssemblyInfoInputs.cache
+E:\Git\RobotWar\RobotWar\RobotWar\RobotWar\obj\Debug\netcoreapp3.1\RobotWar.AssemblyInfo.cs
+E:\Git\RobotWar\RobotWar\RobotWar\RobotWar\obj\Debug\netcoreapp3.1\RobotWar.csproj.CoreCompileInputs.cache
+E:\Git\RobotWar\RobotWar\RobotWar\RobotWar\obj\Debug\netcoreapp3.1\RobotWar.dll
+E:\Git\RobotWar\RobotWar\RobotWar\RobotWar\obj\Debug\netcoreapp3.1\RobotWar.pdb
+E:\Git\RobotWar\RobotWar\RobotWar\RobotWar\obj\Debug\netcoreapp3.1\RobotWar.genruntimeconfig.cache

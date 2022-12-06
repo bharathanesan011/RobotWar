@@ -6,8 +6,11 @@ namespace RobotWar
 {
     class Program
     {
+        //Direction are stored in array based on their left and right 
         private static char[] directions = { 'N', 'E', 'S', 'W' };
+        //X coordinate for Arena
         private static int upperRightX;
+        //Y coordinate for Arena
         private static int upperRightY;
         static void Main(string[] args)
         {
@@ -15,11 +18,15 @@ namespace RobotWar
             Console.WriteLine("=====================================================================================================");
             Console.WriteLine("Enter upper-right coordinates of the arena (Format: x_value<<Space>>y_value):");
             string upperRightCO = Console.ReadLine();
+            //Spliting the Input string into array for X and Y Coordinates
             var upperRightXY = upperRightCO.Split(' ');
+            //Converting String to Int
             Int32.TryParse(upperRightXY[0], out upperRightX);
             Int32.TryParse(upperRightXY[1], out upperRightY);
+            //List Robots in Arena
             List<Robot> allRobots = new List<Robot>();
             char response = 'N';
+            //Initilising Maximum no. of Moves with minimum Integer Value
             int maxMoves = Int32.MinValue;
             do
             {
@@ -27,17 +34,24 @@ namespace RobotWar
                 Console.WriteLine("Directions: (N, E, W, S)");
                 Console.WriteLine("Enter Robot coordinates (Format: x_value<<Space>>y_value<<Space>>Direction):");
                 string botCO= Console.ReadLine();
+                //Coordinates and Direction of the Robots
                 var botValue = botCO.Split(' ');
                 Console.WriteLine("Please enter the robots moves as a collection of L M R:");
                 string moves = Console.ReadLine();
+                //Instruction for Robots
+
+                //Updating the maximum no. of Moves
                 if (maxMoves < moves.Length)
                     maxMoves = moves.Length;                
                 Int32.TryParse(botValue[0], out int x);
                 Int32.TryParse(botValue[1], out int y);
                 Char.TryParse(botValue[2], out char c);
+
+                //Validating the Robot Inputs
                 bool flag = validateBotInput(x, y, c, moves);
                 if (flag)
                 {
+                    //Creating object for Robot based on the Input
                     Robot bot = new Robot(x, y, c, moves);
                     allRobots.Add(bot);
                 }
@@ -48,17 +62,23 @@ namespace RobotWar
                 Console.WriteLine("=====================================================================================================");
                 Console.WriteLine("Do you want to add another Robot?(Y/N):");
                 response = Console.ReadLine()[0]; 
+                //Reponse to add another Robot to the Arena
             } while (response == 'Y' || response=='y');
             Console.WriteLine("=====================================================================================================");
+            //Execute Series of Instruction
             StartGame(allRobots, maxMoves);
+            Console.WriteLine("Output:");
+            //Display Final Robots Location
             DisplayBotLocation(allRobots);
         }
 
-        private static bool validateBotInput(int v1, int v2, char v3, string moves)
+        #region Data Helper
+
+        private static bool validateBotInput(int x, int y, char c, string moves)
         {
-            if (v1 > upperRightX || v2 > upperRightY)
+            if (x > upperRightX || y > upperRightY)
                 return false;
-            if (!directions.Contains(v3))
+            if (!directions.Contains(c))
                 return false;
             if (!moves.All(c => "LMR".Contains(c)))
                 return false;
@@ -67,12 +87,13 @@ namespace RobotWar
 
         private static void DisplayBotLocation(List<Robot> allRobots)
         {
-            foreach(var bot in allRobots)
+            foreach (var bot in allRobots)
             {
-                Console.WriteLine(bot.x + " " + bot.y + " "+bot.direction);
+                Console.WriteLine(bot.x + " " + bot.y + " " + bot.direction);
             }
         }
 
+        #endregion
         private static void StartGame(List<Robot> allRobots, int maxMoves)
         {
             int move = 0;
@@ -93,17 +114,20 @@ namespace RobotWar
                                 MoveForward(bot);
                                 break;
                         }
-                    }
+                    }                   
                 }
                 maxMoves--;
                 move++;
+                Console.WriteLine("Position of Robots after Step " + move);
+                DisplayBotLocation(allRobots);
             }
             Console.WriteLine("=====================================================================================================");
         }
 
+        #region Robot Navigator Helper
         private static void MoveForward(Robot bot)
         {
-            if (bot.direction == 'N' && bot.y+1<=upperRightY)
+            if (bot.direction == 'N' && bot.y + 1 <= upperRightY)
                 bot.y++;
             else if (bot.direction == 'E' && bot.x + 1 <= upperRightX)
                 bot.x++;
@@ -132,6 +156,7 @@ namespace RobotWar
             else
                 index--;
             bot.direction = directions[index];
-        }
+        } 
+        #endregion
     }
 }

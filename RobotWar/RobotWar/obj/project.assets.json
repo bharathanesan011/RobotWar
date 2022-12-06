@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\CuBE\\source\\repos\\RobotWar\\RobotWar\\RobotWar.csproj",
+      "projectUniqueName": "E:\\Git\\RobotWar\\RobotWar\\RobotWar\\RobotWar\\RobotWar.csproj",
       "projectName": "RobotWar",
-      "projectPath": "C:\\Users\\CuBE\\source\\repos\\RobotWar\\RobotWar\\RobotWar.csproj",
+      "projectPath": "E:\\Git\\RobotWar\\RobotWar\\RobotWar\\RobotWar\\RobotWar.csproj",
       "packagesPath": "C:\\Users\\CuBE\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\CuBE\\source\\repos\\RobotWar\\RobotWar\\obj\\",
+      "outputPath": "E:\\Git\\RobotWar\\RobotWar\\RobotWar\\RobotWar\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

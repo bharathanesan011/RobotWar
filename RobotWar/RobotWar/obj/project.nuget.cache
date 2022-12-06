@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+H+V7UP8WUnCzEHZKdhuMaymh9JnSNtVdIQN+N/PcxAt40EZkHgXQ213WYEqWx4l6XFsmKkviVL2NcQa+EnTvg==",
+  "dgSpecHash": "oqxPOPvodLWUHtgjX+idJ3EqhGAady5v3PesXPmb8s3UeopI986ch91xt0VAU3Q0ZDibXxR0eWVchDesCidxyQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\CuBE\\source\\repos\\RobotWar\\RobotWar\\RobotWar.csproj",
+  "projectFilePath": "E:\\Git\\RobotWar\\RobotWar\\RobotWar\\RobotWar\\RobotWar.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\CuBE\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
   ],
