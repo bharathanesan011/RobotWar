@@ -1,0 +1,14 @@
+C:\Users\CuBE\source\repos\RobotWar\RobotWar\bin\Debug\netcoreapp3.1\RobotWar.exe
+C:\Users\CuBE\source\repos\RobotWar\RobotWar\bin\Debug\netcoreapp3.1\RobotWar.deps.json
+C:\Users\CuBE\source\repos\RobotWar\RobotWar\bin\Debug\netcoreapp3.1\RobotWar.runtimeconfig.json
+C:\Users\CuBE\source\repos\RobotWar\RobotWar\bin\Debug\netcoreapp3.1\RobotWar.runtimeconfig.dev.json
+C:\Users\CuBE\source\repos\RobotWar\RobotWar\bin\Debug\netcoreapp3.1\RobotWar.dll
+C:\Users\CuBE\source\repos\RobotWar\RobotWar\bin\Debug\netcoreapp3.1\RobotWar.pdb
+C:\Users\CuBE\source\repos\RobotWar\RobotWar\obj\Debug\netcoreapp3.1\RobotWar.csproj.AssemblyReference.cache
+C:\Users\CuBE\source\repos\RobotWar\RobotWar\obj\Debug\netcoreapp3.1\RobotWar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CuBE\source\repos\RobotWar\RobotWar\obj\Debug\netcoreapp3.1\RobotWar.AssemblyInfoInputs.cache
+C:\Users\CuBE\source\repos\RobotWar\RobotWar\obj\Debug\netcoreapp3.1\RobotWar.AssemblyInfo.cs
+C:\Users\CuBE\source\repos\RobotWar\RobotWar\obj\Debug\netcoreapp3.1\RobotWar.csproj.CoreCompileInputs.cache
+C:\Users\CuBE\source\repos\RobotWar\RobotWar\obj\Debug\netcoreapp3.1\RobotWar.dll
+C:\Users\CuBE\source\repos\RobotWar\RobotWar\obj\Debug\netcoreapp3.1\RobotWar.pdb
+C:\Users\CuBE\source\repos\RobotWar\RobotWar\obj\Debug\netcoreapp3.1\RobotWar.genruntimeconfig.cache
